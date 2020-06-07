@@ -1,0 +1,52 @@
+RegExp = [Dd](rogas) ([01-31][01-31]\/[01-12][01-12]\/(20)\w\w)
+
+Match 1
+Full match	81-98	Drogas 22/10/2008
+Group 1.	82-87	rogas
+Group 2.	88-98	22/10/2008
+Group 3.	94-96	20
+Match 2
+Full match	1213-1230	Drogas 12/12/2024
+Group 1.	1214-1219	rogas
+Group 2.	1220-1230	12/12/2024
+Group 3.	1226-1228	20
+Match 3
+Full match	3023-3040	Drogas 03/12/2002
+Group 1.	3024-3029	rogas
+Group 2.	3030-3040	03/12/2002
+Group 3.	3036-3038	20
+Match 4
+Full match	5132-5149	Drogas 30/10/2006
+Group 1.	5133-5138	rogas
+Group 2.	5139-5149	30/10/2006
+Group 3.	5145-5147	20
+Match 5
+Full match	5421-5438	Drogas 32/02/2011
+Group 1.	5422-5427	rogas
+Group 2.	5428-5438	32/02/2011
+Group 3.	5434-5436	20
+Match 6
+Full match	7526-7543	Drogas 31/10/2011
+Group 1.	7527-7532	rogas
+Group 2.	7533-7543	31/10/2011
+Group 3.	7539-7541	20
+Match 7
+Full match	8727-8744	Drogas 02/01/2006
+Group 1.	8728-8733	rogas
+Group 2.	8734-8744	02/01/2006
+Group 3.	8740-8742	20
+Match 8
+Full match	9332-9349	Drogas 12/20/2005
+Group 1.	9333-9338	rogas
+Group 2.	9339-9349	12/20/2005
+Group 3.	9345-9347	20
+Match 9
+Full match	10315-10332	Drogas 01/02/2001
+Group 1.	10316-10321	rogas
+Group 2.	10322-10332	01/02/2001
+Group 3.	10328-10330	20
+Match 10
+Full match	10518-10535	Drogas 11/10/2013
+Group 1.	10519-10524	rogas
+Group 2.	10525-10535	11/10/2013
+Group 3.	10531-10533	20
