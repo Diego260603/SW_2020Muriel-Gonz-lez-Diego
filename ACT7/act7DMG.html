@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="act7DMG.css">
+    <title>Actividad 7  |  D.M.G.</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="bienvenido">
+        <h3>Bienvenido al registro de las</h3>
+      </div>
+      <div class="ES">
+        <h1>ELEMENT SERIES</h1>
+      </div>
+      <div class="form">
+        <form action="act7DMG.php" method="post">
+          <span>Nombre(s)</span><br>
+          <input type="text" name="nombre" pattern="([^0-9 ])\gm" required><br>
+          <span>Apellido Paterno</span><br>
+          <input type="text" name="ap" pattern="([^0-9 ])\gm" required><br>
+          <span>Apellido Materno</span><br>
+          <input type="text" name="am" pattern="([^0-9 ])\gm" required><br>
+          <span>Fecha de Nacimiento</span><br>
+          <input type="date" name="nacimiento" required><br>
+          <span>Colegio</span><br>
+          <select name="colegio" required>
+            <option value="1">Física</option>
+            <option value="2">Informática</option>
+            <option value="3">Matemáticas</option>
+            <option value="4">Biología</option>
+            <option value="5">Educación Física</option>
+            <option value="6">Morfología, Fisiología y Salud</option>
+            <option value="7">Orientación Educativa</option>
+            <option value="8">Psicologia e Higiene Mental</option>
+            <option value="9">Química</option>
+            <option value="10">Ciencias Sociales</option>
+            <option value="11">Geografía</option>
+            <option value="12">Historia</option>
+            <option value="13">Alemán</option>
+            <option value="14">Artes Plásticas</option>
+            <option value="15">Danza</option>
+            <option value="16">Dibujo y Modelado</option>
+            <option value="17">Filosofía</option>
+            <option value="18">Francés</option>
+            <option value="19">Inglés</option>
+            <option value="20">Italiano</option>
+            <option value="21">Letras Clásicas</option>
+            <option value="22">Literatura</option>
+            <option value="23">Música</option>
+            <option value="24">Teatro</option>
+          </select><br>
+          <span>Nombre de Usario (RFC)</span><br>
+          <input type="text" name="rfc" pattern="(\w\w\w\w\w\w\w\w\w\w\w\w\w)\gm" required><br>
+          <input type="submit" name="enviar">
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
